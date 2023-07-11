@@ -1,0 +1,21 @@
+{
+  "name": "starter-template",
+  "description": "A starter template for Node.js CLI applications",
+  "version": "1.0.0",
+  "bin": {
+    "starter-template": "dist/index.mjs"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  }
+}
